@@ -17,6 +17,7 @@ const Card = ({ id, imgsrc, title, price, description }) => {
                         layout=""
                     />
                 </Link>
+
             </div>
             <div className="card-inside">
                 <div>
