@@ -6,9 +6,6 @@ import { useState } from "react";
 import { useEffect } from "react";
 
 const pid = ({ productList }) => {
-    const router = useRouter();
-    const { pid } = router.query;
-
     return (
         // Sticky Image
         <Box
